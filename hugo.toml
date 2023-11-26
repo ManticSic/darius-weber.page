@@ -13,7 +13,6 @@ weight = 10
 [params]
 title = "Darius Weber"
 favicon = "/favicon.png"
-useBootstrapCDN = false
 mathjax = false
 animate = true
 
