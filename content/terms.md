@@ -24,11 +24,11 @@ The privacy of my visitors is very important to me. This privacy policy outlines
 
 ### Some General Information
 
-Like many other websites on the internet, this site is hosted on someone else' infrastructure and uses content delivery networks to provide some of the code used. In my case the following providers are involved:
+Like many other websites on the internet, this site is hosted on someone else's infrastructure and uses content delivery networks to provide some of the code used. In my case the following providers are involved:
 - [GitHub][gh-pages-policy] to host this site on GitHub pages.
 - [Strato][strato-privacy] provides the mail servers and this domain
 
-This site does not collect data itself. Only thirs part member collect data to comply with legal obligations and to maintain the security and integrity of this site and its services.
+This site does not collect data itself. Only thirt party members collect data to comply with legal obligations and to maintain the security and integrity of this site and its services.
 
 ### Log Files
 
@@ -48,7 +48,7 @@ But... the [local storage][localstorage] is used to make sure you always see the
 
 ## Disclosure Policy
 
-This site is completely ad-free! I do not make any money from this site.  
+This site is completely ad-free! I don't make any money from this site.  
 Currently, I don't collect usage statistics, but this may change in the future.
 
 This site contains some editorial content. I will always try to provide you with the best quality.
