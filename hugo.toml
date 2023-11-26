@@ -3,6 +3,10 @@ languageCode = 'en-us'
 title = 'Darius Weber'
 theme = 'hugo-profile'
 
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+page = ["HTML", "RSS"]
+
 [[Menus.main]]
 identifier = "terms"
 name = "Terms & Privacy Policy"
