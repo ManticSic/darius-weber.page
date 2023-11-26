@@ -1,3 +1,149 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://www.darius-weber.de/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Darius Weber'
+theme = 'hugo-profile'
+
+[[Menus.main]]
+identifier = "terms"
+name = "Terms & Privacy Policy"
+title = "Terms & Privacy Policy"
+url = "/terms"
+weight = 10
+
+[params]
+title = "Darius Weber"
+favicon = "/favicon.png"
+useBootstrapCDN = false
+mathjax = false
+animate = true
+
+[params.navbar]
+disableSearch = true
+
+[params.hero]
+enable = true
+intro = "Hi, my name is"
+title = "Darius."
+subtitle = "my goal: enable developers!"
+content = """
+I want to be of service to my colleagues, remove obstacles and create a vision for the common goal.  
+On top of that, as a DevSecOps Engineer, I try to make security and compliance fun, not boring and frustrating.
+"""
+image = "/images/me.jpg"
+roundImage = true
+
+[params.hero.button]
+enable = true
+name = "Learn more"
+url = "/#experience"
+download = false
+newPage = false
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-xing"
+url = "https://www.xing.com/profile/Darius_Weber3"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/darius-weber-49bb24215/"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-github"
+url = "https://github.com/ManticSic"
+
+[[params.hero.socialLinks.fontAwesomeIcons]]
+icon = "fab fa-stack-overflow"
+url = "https://stackoverflow.com/users/5663348/d-weber"
+
+[params.experience]
+enable = true
+
+[[params.experience.items]]
+company = "SCHUMANN"
+companyUrl = "https://prof-schumann.com/"
+job = "DevSecOps Engineer / Software Developer"
+date = "Since Sep 2021"
+content = """
+I joined the company knowing that there were some big changes going on.
+They were starting to develop for Linux and they were going to move from SVN to Git - two things I had a lot of experience with.
+I joined the centralised DevOps team that was responsible for both.
+
+After a few weeks I was invited to join a committee to improve the developer experience.
+Now I'm the representative of this group and together we've successfully implemented several changes.
+
+I currently work as a DevSecOps Engineer. My main responsibilities are project management and spreading knowledge about DevSecOps.
+I'm not sure at what point I switched from being a developer to someone more involved in planning and organisation. But I love it!
+That's why I want to move into a management career. I've already started training in leadership and management.
+"""
+
+[[params.experience.items]]
+company = "dff solutions"
+companyUrl = "https://www.circlon.de/"
+job = "Software Developer"
+date = "Sep 2014 - Sep 2021"
+content = """
+I came here through a former colleague to set up a new team to develop an existing delivery tracking system for food retail.
+
+Our main tasks were to modernise several .Net servers and to stabilise of an Android app written with Angular.
+In addition to regular development I was responsible for improving the development process by increasing the automation of the build process.
+
+Together we have managed to turn one of the worst running projects into a flagship project with just a few people in less than one year.
+
+Shortly before the company folded, we developed a service to track, combine and analyse truck telematics from multiple vendors.
+"""
+
+[[params.experience.items]]
+company = "xplace GmbH"
+companyUrl = "https://www.xplace-group.com/"
+job = "Software Developer"
+date = "Oct 2014 - Aug 2020"
+content = """
+I started as an intern in the design department and later worked as media design assistant.
+After one year I started an apprenticeship as software developer.
+
+My focus was on developing applications for the POS in Java, TypeScript, .Net and Python. Later I was responsible for release and package management.
+In addition to my development tasks, I took over the technical project management for a large customer.
+
+My highlight at xplace was the introduction of Git and GitLab where I gave some internal trainings.
+"""
+
+[params.education]
+enable = true
+index = false
+
+[[params.education.items]]
+title = "Certified DevSecOps Engineer"
+date = "On going"
+content = ""
+
+[params.education.items.school]
+name = "EC Council"
+url = "https://www.eccouncil.org/"
+
+[[params.education.items]]
+title = "Computer Science Expert (Subject area: Software Development"
+date = "Aug. 2015 - Jan 2018"
+GPA = "86 Points (Good)"
+content = ""
+
+[params.education.items.school]
+name = "Göttingen BBS 2"
+url = "https://www.bbs2goe.de/"
+
+[[params.education.items]]
+title = "Abitur / High School"
+date = "Jun 2013"
+GPA = "500 out of 900 Points (2.8)"
+content = """
+I wrote my specialisted work about "Ariosophy - The root of National Socialism" an passed with 8 out of 15 points.
+"""
+
+[params.education.items.school]
+name = "KGS Moringen"
+url = "https://kgsmoringen.de/"
+
+[params.contact]
+enable = true
+content = "My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you! "
+email = "darius.weber@posteo.de"
+btnName = "Mail me"
