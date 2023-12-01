@@ -4,7 +4,7 @@ title = 'Darius Weber'
 theme = 'hugo-profile'
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML"]
 page = ["HTML", "RSS"]
 
 [[Menus.main]]
