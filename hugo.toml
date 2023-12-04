@@ -19,7 +19,7 @@ identifier = "blog"
 name = "Blog"
 title = "Blog posts "
 url = "/blog"
-weight = 0
+weight = -10
 
 [params]
 title = "Darius Weber"
