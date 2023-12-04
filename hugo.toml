@@ -14,6 +14,13 @@ title = "Terms & Privacy Policy"
 url = "/terms"
 weight = 10
 
+[[Menus.main]]
+identifier = "blog"
+name = "Blog"
+title = "Blog posts "
+url = "/blog"
+weight = 0
+
 [params]
 title = "Darius Weber"
 favicon = "/favicon.png"
