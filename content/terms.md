@@ -1,14 +1,15 @@
 ---
 title: "Terms & Privacy Policy"
-date: 2022-06-25T18:35:46+05:30
-draft: false
-layout: "single"
-outputs:
-    - HTML
+description: ''
+author: Darius Weber
+date: 2023-11-12
 
+layout: "single"
 siteDetails: false
 socialShare: false
-author: Darius
+
+outputs:
+    - HTML
 ---
 
 ## Imprint
