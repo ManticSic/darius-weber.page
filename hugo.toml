@@ -29,6 +29,7 @@ animate = true
 
 [params.navbar]
 disableSearch = true
+brandLogo = "/logo.png"
 
 [params.hero]
 enable = true
