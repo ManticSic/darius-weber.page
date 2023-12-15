@@ -47,6 +47,12 @@ jobs:
         uses: actions/configure-pages@v3
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Replace revision in configuration
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          include: "hugo.toml"
+          find: "rev = \"1234567\""
+          replace: "rev = \"${{ github.sha }}\""
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
