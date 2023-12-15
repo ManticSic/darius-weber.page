@@ -29,6 +29,22 @@ rev = "1234567"
 mathjax = false
 animate = true
 
+[[params.socialLinks]]
+icon = "fab fa-xing"
+url = "https://www.xing.com/profile/Darius_Weber3"
+
+[[params.socialLinks]]
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/darius-weber-49bb24215/"
+
+[[params.socialLinks]]
+icon = "fab fa-github"
+url = "https://github.com/ManticSic"
+
+[[params.socialLinks]]
+icon = "fab fa-stack-overflow"
+url = "https://stackoverflow.com/users/5663348/d-weber"
+
 [params.navbar]
 disableSearch = true
 brandLogo = "/logo.png"
@@ -50,22 +66,6 @@ enable = true
 name = "Learn more"
 url = "/#experience"
 newPage = false
-
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-xing fa-fw"
-url = "https://www.xing.com/profile/Darius_Weber3"
-
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-linkedin fa-fw"
-url = "https://www.linkedin.com/in/darius-weber-49bb24215/"
-
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-github fa-fw"
-url = "https://github.com/ManticSic"
-
-[[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-stack-overflow fa-fw"
-url = "https://stackoverflow.com/users/5663348/d-weber"
 
 [params.experience]
 enable = true
