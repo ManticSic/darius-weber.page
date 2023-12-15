@@ -23,6 +23,7 @@ weight = -10
 
 [params]
 title = "Darius Weber"
+copyright = "Darius Weber"
 favicon = "/favicon.png"
 mathjax = false
 animate = true
