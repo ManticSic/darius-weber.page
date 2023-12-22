@@ -17,7 +17,7 @@ weight = 10
 [[Menus.main]]
 identifier = "blog"
 name = "Blog"
-title = "Blog posts "
+title = "Blog posts"
 url = "/blog"
 weight = -10
 
@@ -149,9 +149,9 @@ title = "Abitur / High School"
 date = "Jun 2013"
 GPA = "500 out of 900 Points (2.8)"
 content = """
-Main focus: science
+Main focus: science (Maths, Physics, Chemistry)
 
-I wrote my specialisted work about "Ariosophy - The Root of National Socialism" an passed with 8 out of 15 points.
+I wrote my specialisted work about "Ariosophy - The Root of National Socialism" and passed with 8 out of 15 points.
 """
 
 [params.education.items.school]
