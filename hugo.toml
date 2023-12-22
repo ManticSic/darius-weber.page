@@ -25,6 +25,7 @@ weight = -10
 title = "Darius Weber"
 copyright = "Darius Weber"
 favicon = "/favicon.png"
+siteRepository = "https://github.com/ManticSic/www.darius-weber.de"
 rev = "1234567"
 mathjax = false
 animate = true
