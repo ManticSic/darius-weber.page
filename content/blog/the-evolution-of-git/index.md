@@ -6,6 +6,7 @@ date: 2023-12-10
 image: /blog/the-evolution-of-git/thumbnail.jpg
 tags:
     - git
+    - git-scm
     - version control
     - github
 

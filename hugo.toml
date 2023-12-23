@@ -21,6 +21,13 @@ title = "Blog posts"
 url = "/blog"
 weight = -10
 
+[[Menus.main]]
+identifier = "projects"
+name = "Projects"
+title = "Projects"
+url = "/projects"
+weight = -20
+
 [params]
 title = "Darius Weber"
 copyright = "Darius Weber"
