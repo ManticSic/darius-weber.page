@@ -6,11 +6,15 @@ image: /projects/docker-official-secrep/thumbnail.jpg
 tags:
   - docker
   - security
-  - aquasec
+  - aquaSec
+  - python
+  - github actions
 badges:
   - docker
   - security
-  - aquasec
+  - aquaSec
+  - python
+  - github actions
 links: [ { url: https://github.com/ManticSic/docker-official-security-report, icon: fab fa-github } ]
 socialShare: false
 toc: false
