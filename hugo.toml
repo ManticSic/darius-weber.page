@@ -60,11 +60,11 @@ brandLogo = "/logo.png"
 [params.hero]
 enable = true
 intro = "Hi, my name is"
-title = "Darius."
+title = "Darius"
 subtitle = "my goal: enable developers"
 content = """
-I want to be of service to my colleagues, remove obstacles and create a vision for the common goal.  
-On top of that, as a DevSecOps Engineer, I try to make security and compliance fun, not boring and frustrating.
+I aim to be of service to my colleagues, removing unnecessary obstacles and fostering a vision for a common goals.  
+On top of that, as a DevSecOps Engineer, I strive to make security and compliance engaging rather than tedious and frustrating.
 """
 image = "/images/me.jpg"
 roundImage = true
@@ -81,19 +81,34 @@ enable = true
 [[params.experience.items]]
 company = "SCHUMANN"
 companyUrl = "https://prof-schumann.com/"
-job = "DevSecOps Engineer"
-date = "Since Sep 2021"
+job = "Product Owner"
+date = "Since March 2024"
 content = """
-I joined the company knowing that there were some big changes going on.
-They were starting to develop for Linux and they were going to move from SVN to Git - two things I had a lot of experience with.
-I joined the centralized DevOps team that was responsible for both.
+Eager to lead and inspire, I've actively pursued training programs in leadership and management, aiming to harness my skills for broader impact.
 
-After a few weeks I was invited to join a committee to improve the developer experience.
-Now I'm the representative of this group and together we've successfully implemented several changes.
+In mid-2023, following a reorganization, I assumed some of our team leader's responsibilities on a temporary basis.
+Recognizing the potential to enhance the quality and value of our work, by the end of 2023, I advocated for assuming these tasks permanently.
 
-I currently work as a DevSecOps Engineer. My main responsibilities are project management and spreading knowledge about DevSecOps.
-I'm not sure at what point I switched from being a developer to someone more involved in planning and organisation. But I love it!  
-That's why I want to move into a management career. I've already started training in leadership and management.
+Since March 2024, I have officially overseen the entire development infrastructure, among other responsibilities.
+"""
+
+[[params.experience.items]]
+company = "SCHUMANN"
+companyUrl = "https://prof-schumann.com/"
+job = "DevSecOps Engineer"
+date = "Sep 2021 - Feb 2024"
+content = """
+When I first joined the company, I knew there were significant transformations underway.
+We were embarking on development for Linux and transitioning from SVN to Git - areas where I held considerable expertise.
+I became an integral part of the centralized DevOps team tasked with spearheading these changes.
+
+As a passionate advocate for DevSecOps principles,
+I derive immense satisfaction from sharing knowledge and fostering collaboration
+
+Alongside my primary responsibilities, I was promptly invited to contribute to a committee dedicated to enhancing the developer experience.
+Today, I proudly represent this group, and together, we've spearheaded several impactful initiatives.  
+Notably, we've implemented regular developer satisfaction surveys, with a technology-focused approach, to ensure continuous improvement.
+Furthermore, we've established a committee tasked with enhancing software supply chain security and eliminating obstacles hindering progress.
 """
 
 [[params.experience.items]]
@@ -109,7 +124,7 @@ In addition to regular development I was responsible for improving the developme
 
 Together we have managed to turn one of the worst running projects into a flagship project with just a few people in less than one year.
 
-Shortly before the company folded, we developed a service to track, combine and analyse truck telematics from multiple vendors.
+Shortly before the company folded, we developed a service to track, combine, and analyse truck telematics from multiple vendors.
 """
 
 [[params.experience.items]]
@@ -121,7 +136,7 @@ content = """
 I started as an intern in the design department and later worked as media design assistant.
 After one year I started an apprenticeship as software developer.
 
-My focus was on developing applications for the POS in Java, TypeScript, .Net and Python. Later I was responsible for release and package management.
+My focus was on developing applications for the POS in Java, TypeScript, .Net, and Python. Later I was responsible for release and package management.
 In addition to my development tasks, I took over the technical project management for a large customer.
 
 My highlight at xplace was the introduction of Git and GitLab where I gave some internal trainings.
@@ -139,6 +154,15 @@ content = ""
 [params.education.items.school]
 name = "EC Council"
 url = "https://www.eccouncil.org/"
+
+[[params.education.items]]
+title = "Management and Leadship Training"
+date = "Oct 2023 - March 2024"
+content = "Content: leadership approaches and theories; role and tasks of a manager; change from colleague to superior; perception and communication; motivation; dealing with conflicts; formulating goals; delegating"
+
+[params.education.items.school]
+name = "Weinreich recruit & develop"
+url = "https://www.weinreich-rd.de/"
 
 [[params.education.items]]
 title = "Computer Science Expert"
