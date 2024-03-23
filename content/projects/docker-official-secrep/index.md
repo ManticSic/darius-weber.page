@@ -30,8 +30,10 @@ Yep... today we know better. The approval of these images didn't solve the probl
 Okay, we have a set of approved images, almost none of which we use. So, what's the problem?
 
 We approved them on the assumption that they meet our security and compliance standards. We made this assumption based on the description:
+
 > The Docker Official Images are a curated set of Docker repositories hosted on Docker Hub.
 > These images provide essential base repositories that serve as the starting point for the majority of users.
+
 What we expected from this statement: well-maintained and secure images.
 
 But I'm not sure if they fulfill our security and compliance standards. We have found several outdated images and some blog posts which indicate that they are much less secure than implied, for example, [Aqua Security's report][2]. But most of these reports are several years old. Are they still true?
