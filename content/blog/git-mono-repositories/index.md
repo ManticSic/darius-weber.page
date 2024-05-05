@@ -1,5 +1,5 @@
 ---
-title: 'IMHO: Working With Git Mono Repositories'
+title: 'Working With Git Mono Repositories'
 description: 'A dive into the world of Git mono repositories.'
 author: 'Darius Weber'
 date: 2024-05-05
@@ -10,6 +10,9 @@ tags:
     - git-scm
     - version control
     - github
+    - gitlab
+    - microsoft
+    - windows
 layout: 'single'
 socialShare: false
 ---
